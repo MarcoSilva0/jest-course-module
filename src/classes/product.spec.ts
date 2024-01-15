@@ -4,7 +4,7 @@ const createSut = (name: string, price: number, quantity: number) => {
   return new Product(name, price, quantity);
 };
 
-describe('Messaging', () => {
+describe('Products', () => {
   //Clean all mock after suit test
   afterEach(() => jest.clearAllMocks());
 
