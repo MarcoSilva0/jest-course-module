@@ -1,4 +1,4 @@
-import { Persistency } from './Persistency';
+import { Persistency } from '../Persistency';
 
 describe('Persistency', () => {
   //Clean all mock after suit test

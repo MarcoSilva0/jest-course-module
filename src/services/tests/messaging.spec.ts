@@ -1,4 +1,4 @@
-import { Messaging } from './Messaging';
+import { Messaging } from '../Messaging';
 
 const createSut = () => {
   return new Messaging();
