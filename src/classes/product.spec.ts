@@ -8,7 +8,7 @@ describe('Messaging', () => {
   //Clean all mock after suit test
   afterEach(() => jest.clearAllMocks());
 
-  it('should return undefined', () => {
+  it('should have properties name, price and quantity', () => {
     const sut = createSut('Camiseta', 49.9, 1);
 
     expect(sut).toHaveProperty('name', 'Camiseta');
